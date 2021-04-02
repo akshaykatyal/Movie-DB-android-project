@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".splash"
+    tools:showIn="@layout/activity_splash">
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="600dp"
+        android:background="@drawable/bag"
+        android:id="@+id/lin_lay">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="105dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="144dp"
+                android:layout_height="213dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

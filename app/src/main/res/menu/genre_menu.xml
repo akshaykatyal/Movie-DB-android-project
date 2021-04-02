@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/options_menu"
+        android:icon="@drawable/ic_sort_white_24px"
+        android:title="@string/options_menu"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/genre_menu"
+                android:title="@string/genre">
+                <menu>
+                    <item
+                        android:id="@+id/horror_item"
+                        android:title="@string/horror" />
+                    <item
+                        android:id="@+id/comedy_item"
+                        android:title="@string/comedy" />
+                    <item
+                        android:id="@+id/thriller_item"
+                        android:title="@string/thriller" />
+                    <item
+                        android:id="@+id/romantic_item"
+                        android:title="@string/romantic" />
+                    <item
+                        android:id="@+id/crime_item"
+                        android:title="@string/crime" />
+                    <item
+                        android:id="@+id/science_item"
+                        android:title="@string/science_fiction" />
+                    <item
+                        android:id="@+id/adventure_item"
+                        android:title="@string/adventure" />
+                    <item
+                        android:id="@+id/drama_item"
+                        android:title="@string/drama" />
+                    <item
+                        android:id="@+id/family_item"
+                        android:title="@string/family" />
+                    <item
+                        android:id="@+id/fantasy_item"
+                        android:title="@string/fantasy" />
+                    <item
+                        android:id="@+id/music_item"
+                        android:title="@string/music" />
+                    <item
+                        android:id="@+id/mystery_item"
+                        android:title="@string/mystery" />
+                    <item
+                        android:id="@+id/animation_item"
+                        android:title="@string/animation" />
+                    <item
+                        android:id="@+id/documentary_item"
+                        android:title="@string/documentary" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/language_item"
+                android:title="@string/language">
+                <menu>
+                    <item
+                        android:id="@+id/english_item"
+                        android:title="@string/english" />
+                    <item
+                        android:id="@+id/hindi_item"
+                        android:title="@string/hindi" />
+                    <item
+                        android:id="@+id/punjabi_item"
+                        android:title="@string/punjabi" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/sort_by"
+                android:title="@string/sort_by">
+                <menu>
+                    <item
+                        android:id="@+id/pop_desc_item"
+                        android:title="@string/popularity_desc" />
+                    <item
+                        android:id="@+id/rel_date_item"
+                        android:title="@string/release_date" />
+                    <item
+                        android:id="@+id/rating_item"
+                        android:title="@string/rating" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>
